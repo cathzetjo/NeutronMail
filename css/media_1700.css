@@ -1,0 +1,23 @@
+@media screen and (max-width: 1700px) {
+
+     main .information {
+        justify-content: space-evenly;
+        margin: auto;
+    }
+
+    .partners {
+        margin-left: 450px;
+    }
+
+    .main .information-container:nth-child(2)::before {
+        bottom: 50%;
+    }
+
+    .main .information-container:last-child::before {
+        top: 80%;
+    }
+
+    .main .information-container:last-child::after {
+        left: 109%;
+    }
+}

@@ -1,0 +1,138 @@
+@media only screen and (max-width: 950px) {
+    .header .first-row {
+        margin: 1% 0;
+    }
+
+    .header .logo {
+        margin-right: 0;
+    }
+
+    .header .authorization {
+        margin: 0;
+    }
+
+    header .third-row .slogan {
+        color: #7a7a79;
+        font-size: 40px;
+        width: 100%;
+        margin-left: 15%;
+    }
+
+    header .third-row .slogan h3 {
+
+        font-size: 20px;
+    }
+
+    .header {
+        padding-bottom: 5px;
+    }
+
+
+    header .menu nav ul li a {
+        font-size: 12px;
+        padding: 0 2px;
+    }
+
+    header .first-row .authorization {
+
+        margin: 0 2%;
+    }
+
+    main .information {
+        margin: 2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .information .information-container {
+        padding: 2%;
+    }
+
+    .security-text {
+        text-align: center;
+        margin: 1%;
+    }
+
+    .security-text h4 {
+        font-size: 37px;
+    }
+
+    .security-text p {
+        font-size: 20px;
+    }
+
+    .publications-icons {
+        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .more-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .more-info-contacts {
+        flex-basis: 100%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+    footer .more-info-links {
+        margin-bottom: 5%;
+    }
+
+    .get .feedback-text {
+
+        width: 50%;
+        line-height: 15px;
+    }
+
+    .get .feedback-text p,
+    .get .feedback-text span {
+        font-size: 14px;
+    }
+
+    .get .feedback-slider {
+        width: 10px;
+        margin-right: 20px;
+    }
+
+    .get .download {
+        margin-left: 15%;
+        margin-top: 2%;
+        width: 50%;
+        line-height: 15px;
+    }
+
+    .get .download h4 {
+
+        font-size: 27px;
+    }
+
+    .get .download p {
+
+        font-size: 16px;
+    }
+
+    .get {
+
+        background-size: 25%;
+    }
+
+    .support h4 {
+        font-size: 27px;
+    }
+
+    .support p {
+        font-size: 1em;
+        margin-bottom: 5%;
+    }
+}
+
+
+
+
+
+
+

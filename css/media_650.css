@@ -1,0 +1,138 @@
+@media only screen and (max-width: 650px) {
+
+    .header .first-row {
+        flex-wrap: wrap;
+        overflow: hidden;
+        justify-content: space-evenly;
+    }
+
+    header .logo {
+        flex-basis: 20%;
+        order: 1;
+    }
+
+    header .menu {
+        flex-basis: 100%;
+        order: 3;
+        margin-top: 5%;
+        text-align: center;
+    }
+
+    header .authorization {
+        order: 2;
+    }
+
+    header .second-row .language {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    header .second-row .language .language-item {
+        font-size: 12px;
+        margin-bottom: 1%;
+    }
+
+    header .third-row {
+        margin-top: 0;
+    }
+
+    header .third-row .slogan {
+        font-size: 30px;
+        margin-left: 1%;
+        font-weight: bold;
+        color: black;
+    }
+
+    header .third-row .slogan h3 {
+        color: black;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    header .third-row .social {
+        margin-left: 0;
+    }
+
+    header .forth-row {
+        margin-top: 2%;
+    }
+
+    .main .security-text p {
+        font-size: 16px;
+        margin: 0 17%;
+    }
+
+    .main .security .learn-more::after,
+    .main .support .support-text::before,
+    footer .partners::before {
+        border: none;
+    }
+
+    .main .learn-more {
+        margin-left: 2%;
+        padding: 10px 10px;
+    }
+
+    header .forth-row .create-account a:first-child {
+        padding: 10px 20px;
+    }
+
+    header .forth-row .create-account a:nth-child(2),
+    header .forth-row .create-account a:last-child {
+        padding: 2px 8px;
+    }
+
+    header .authorization .sign-up a {
+        padding: 5px 9px;
+    }
+
+    .publications-icons {
+        margin-top: 2%;
+    }
+
+    .get .download {
+        width: 65%;
+        margin-top: 5%;
+    }
+
+    .get .download h4 {
+        font-size: 22px;
+        margin-bottom: 5%;
+    }
+
+    .get .download p {
+        font-size: 14px;
+    }
+
+    .support h4 {
+        font-size: 22px;
+    }
+
+    .support-buttons a {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .partners {
+
+        margin: 6%;
+    }
+
+    footer .more-info-contacts {
+        margin-bottom: 5%;
+    }
+
+    footer .more-info-links {
+        text-align: left;
+    }
+
+    footer .social,
+    footer .copy-rights {
+        margin-top: 0;
+        margin-left: 1%;
+    }
+
+    header .menu nav ul li a {
+        font-size: 16px;
+    }
+}

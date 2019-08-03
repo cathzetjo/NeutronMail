@@ -1,0 +1,115 @@
+@media only screen and (max-width: 420px) {
+
+    .header {
+        background: none;
+    }
+
+    header .logo {
+        flex-basis: 100%;
+    }
+
+    header .first-row .authorization {
+
+        margin-top: 7%;
+    }
+
+    header .menu {
+        margin-top: 9%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    header .second-row .language {
+
+        text-align: left;
+    }
+
+    header .third-row .slogan,
+    header .third-row .slogan h3,
+    header .third-row .slogan h3 span {
+        color: #3B5998;
+    }
+
+    header .third-row .social a {
+
+        font-size: 15px;
+    }
+
+    header .forth-row {
+        font-size: 18px;
+    }
+
+    header .forth-row .create-account a:first-child {
+        padding: 5px 10px;
+    }
+
+    .get {
+        background: none;
+    }
+
+    .publications-icons,
+    .partners,
+    .get .feedback {
+        display: none;
+    }
+
+    .get {
+        width: 95%;
+    }
+
+    .get .feedback-text {
+        width: 100%;
+    }
+
+    .get .download {
+        width: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+        text-align: center;
+    }
+
+    .support-buttons a {
+        margin-bottom: 10%;
+    }
+
+    footer .more-info-links h4 {
+        font-weight: normal;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    footer .more-info-links {
+        margin-right: 1%;
+    }
+
+    footer .more-info-links a {
+        line-height: 15px;
+        font-weight: normal;
+        font-size: 12px;
+    }
+
+    footer .more-info-links a::after {
+        display: none;
+    }
+
+    footer .social ul li a {
+        font-weight: normal;
+        font-size: 10px;
+        word-spacing: 1px;
+    }
+
+    .support-buttons a {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+
+    .support-buttons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .security-text {
+        width: 100%;
+    }
+
+}
